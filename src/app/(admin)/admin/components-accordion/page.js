@@ -46,14 +46,14 @@ export default function page() {
                       >
                         <div className="accordion-body">
                           <strong>
-                            This is the first item's accordion body.
+                            This is the first items accordion body.
                           </strong>{" "}
                           It is hidden by default, until the collapse plugin
                           adds the appropriate classes that we use to style each
                           element. These classes control the overall appearance,
                           as well as the showing and hiding via CSS transitions.
                           You can modify any of this with custom CSS or
-                          overriding our default variables. It's also worth
+                          overriding our default variables. It is also worth
                           noting that just about any HTML can go within the{" "}
                           <code>.accordion-body</code>, though the transition
                           does limit overflow.
@@ -81,14 +81,14 @@ export default function page() {
                       >
                         <div className="accordion-body">
                           <strong>
-                            This is the second item's accordion body.
+                            This is the second items accordion body.
                           </strong>{" "}
                           It is hidden by default, until the collapse plugin
                           adds the appropriate classes that we use to style each
                           element. These classes control the overall appearance,
                           as well as the showing and hiding via CSS transitions.
                           You can modify any of this with custom CSS or
-                          overriding our default variables. It's also worth
+                          overriding our default variables. It is also worth
                           noting that just about any HTML can go within the{" "}
                           <code>.accordion-body</code>, though the transition
                           does limit overflow.
@@ -116,14 +116,14 @@ export default function page() {
                       >
                         <div className="accordion-body">
                           <strong>
-                            This is the third item's accordion body.
+                            This is the third items accordion body.
                           </strong>{" "}
                           It is hidden by default, until the collapse plugin
                           adds the appropriate classes that we use to style each
                           element. These classes control the overall appearance,
                           as well as the showing and hiding via CSS transitions.
                           You can modify any of this with custom CSS or
-                          overriding our default variables. It's also worth
+                          overriding our default variables. Its also worth
                           noting that just about any HTML can go within the{" "}
                           <code>.accordion-body</code>, though the transition
                           does limit overflow.
@@ -169,7 +169,7 @@ export default function page() {
                           Placeholder content for this accordion, which is
                           intended to demonstrate the{" "}
                           <code>.accordion-flush</code> class. This is the first
-                          item's accordion body.
+                          items accordion body.
                         </div>
                       </div>
                     </div>
@@ -196,7 +196,7 @@ export default function page() {
                           Placeholder content for this accordion, which is
                           intended to demonstrate the{" "}
                           <code>.accordion-flush</code> class. This is the
-                          second item's accordion body. Let's imagine this being
+                          second items accordion body. Lets imagine this being
                           filled with some actual content.
                         </div>
                       </div>
@@ -224,7 +224,7 @@ export default function page() {
                           Placeholder content for this accordion, which is
                           intended to demonstrate the{" "}
                           <code>.accordion-flush</code> class. This is the third
-                          item's accordion body. Nothing more exciting happening
+                          items accordion body. Nothing more exciting happening
                           here in terms of content, but just filling up the
                           space to make it look, at least at first glance, a bit
                           more representative of how this would look in a
