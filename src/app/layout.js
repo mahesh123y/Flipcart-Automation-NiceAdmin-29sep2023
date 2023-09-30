@@ -15,7 +15,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Dashboard - NiceAdmin Bootstrap Template",
-  description: "",
+  description: "content",
 };
 
 export default function RootLayout({ children }) {
