@@ -95,7 +95,7 @@ export default function Home() {
                         </div>
                         <div className="col-12">
                           <p className="small mb-0">
-                            Don't have account?{" "}
+                            Don not have account?{" "}
                             <a href="pages-register.html">Create an account</a>
                           </p>
                         </div>
@@ -103,10 +103,6 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="credits">
-                    {/* All the links in the footer should remain intact. */}
-                    {/* You can delete the links only if you purchased the pro version. */}
-                    {/* Licensing information: https://bootstrapmade.com/license/ */}
-                    {/* Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ */}
                     Designed by{" "}
                     <a href="https://bootstrapmade.com/">BootstrapMade</a>
                   </div>
