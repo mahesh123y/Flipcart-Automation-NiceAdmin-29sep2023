@@ -8,7 +8,7 @@ import "../../public/assets/vendor/simple-datatables/style.css";
 import "../../public/assets/css/style.css";
 import "./globals.css";
 
-import Script from "next/script";
+
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
