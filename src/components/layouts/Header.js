@@ -10,7 +10,7 @@ export default function Header() {
         >
             <div className="d-flex align-items-center justify-content-between">
             <a href="index.html" className="logo d-flex align-items-center">
-                <img src="assets/img/logo.png" alt="true" />
+                <img src="../assets/img/logo.png" alt="true" />
                 <span className="d-none d-lg-block">NiceAdmin</span>
             </a>
             <i className="bi bi-list toggle-sidebar-btn" />
@@ -140,7 +140,7 @@ export default function Header() {
                     <li className="message-item">
                     <a href="#">
                         <img
-                        src="assets/img/messages-1.jpg"
+                        src="../assets/img/messages-1.jpg"
                         alt="true"
                         className="rounded-circle"
                         />
@@ -160,7 +160,7 @@ export default function Header() {
                     <li className="message-item">
                     <a href="#">
                         <img
-                        src="assets/img/messages-2.jpg"
+                        src="../assets/img/messages-2.jpg"
                         alt="true"
                         className="rounded-circle"
                         />
@@ -180,7 +180,7 @@ export default function Header() {
                     <li className="message-item">
                     <a href="#">
                         <img
-                        src="assets/img/messages-3.jpg"
+                        src="../assets/img/messages-3.jpg"
                         alt="true"
                         className="rounded-circle"
                         />
@@ -211,7 +211,7 @@ export default function Header() {
                     data-bs-toggle="dropdown"
                 >
                     <img
-                    src="assets/img/profile-img.jpg"
+                    src="../assets/img/profile-img.jpg"
                     alt="Profile"
                     className="rounded-circle"
                     />

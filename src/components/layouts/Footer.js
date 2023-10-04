@@ -1,4 +1,5 @@
 import React from "react";
+import { APP_BRAND, APP_BRAND_WEBSITE_URL, APP_NAME } from "@//helpers/helper";
 
 export default function Footer() {
   return (
@@ -7,13 +8,12 @@ export default function Footer() {
         <div className="copyright">
           © Copyright{" "}
           <strong>
-            <span>NiceAdmin</span>
+            <span> {APP_NAME} </span>
           </strong>
           . All Rights Reserved
         </div>
         <div className="credits">
-          
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          Designed by <a href={APP_BRAND_WEBSITE_URL}>{APP_BRAND}</a>
         </div>
       </footer>
 

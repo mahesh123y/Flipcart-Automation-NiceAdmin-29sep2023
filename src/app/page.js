@@ -1,4 +1,9 @@
 import Link from 'next/link';
+import {
+  APP_NAME,
+  APP_BRAND,
+  APP_BRAND_WEBSITE_URL,
+} from "@/helpers/helper.js";
 
 export default function Home() {
   return (
@@ -10,24 +15,20 @@ export default function Home() {
               <div className="row justify-content-center">
                 <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
                   <div className="d-flex justify-content-center py-4">
-                    <a
-                      href="index.html"
+                    <Link
+                      href="/"
                       className="logo d-flex align-items-center w-auto"
                     >
                       <img src="assets/img/logo.png" alt="true" />
-                      <span className="d-none d-lg-block">NiceAdmin</span>
-                    </a>
+                      <span className="d-none d-lg-block">{APP_NAME}</span>
+                    </Link>
                   </div>
-                  {/* End Logo */}
                   <div className="card mb-3">
                     <div className="card-body">
                       <div className="pt-4 pb-2">
                         <h5 className="card-title text-center pb-0 fs-4">
-                          Login to Your Account
+                          Login
                         </h5>
-                        <p className="text-center small">
-                          Enter your username &amp; password to login
-                        </p>
                       </div>
                       <form className="row g-3 needs-validation" noValidate>
                         <div className="col-12">
@@ -86,25 +87,22 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="col-12">
-                          <Link href="/admin/dashboard"
+                          <Link
+                            href="/admin/dashboard"
                             className="btn btn-primary w-100"
                             type="submit"
                           >
                             Login
                           </Link>
                         </div>
-                        <div className="col-12">
-                          <p className="small mb-0">
-                            Don not have account?{" "}
-                            <a href="pages-register.html">Create an account</a>
-                          </p>
-                        </div>
                       </form>
                     </div>
                   </div>
                   <div className="credits">
                     Designed by{" "}
-                    <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    <a href={`${APP_BRAND_WEBSITE_URL}`} target="_blank">
+                      {APP_BRAND}
+                    </a>
                   </div>
                 </div>
               </div>
@@ -112,7 +110,7 @@ export default function Home() {
           </section>
         </div>
       </main>
-      {/* End #main */}
+
       <a
         href="#"
         className="back-to-top d-flex align-items-center justify-content-center"
@@ -122,3 +120,4 @@ export default function Home() {
     </>
   );
 }
+
