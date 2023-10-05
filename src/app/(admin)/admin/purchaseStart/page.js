@@ -3,7 +3,7 @@ import React from "react";
 export default function page() {
   return (
     <>
-        <section classname="section dashboard">
+        <section className="section dashboard">
           <div className="row">
             <div className="col-lg-12">
               <div className="card">
