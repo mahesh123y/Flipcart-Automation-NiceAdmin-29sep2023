@@ -1,14 +1,11 @@
 "use client";
 
 // Import area
-
 import React from "react";
 // Import defaultImport from 'some library/somelocation'
 import DataTable from "react-data-table-component";
 
-
-export default function page() {
-  //Define it
+//Define it
   let columns = [
     {
       name: "ID",
@@ -260,6 +257,34 @@ export default function page() {
       action: '<span className="badge text-bg-danger">Delete</span>',
     },
   ];
+
+
+export default function page() {
+//   const [filterText, setFilterText] = React.useState("");
+//   const [resetPaginationToggle, setResetPaginationToggle] =
+//     React.useState(false);
+//   // const filteredItems = fakeUsers.filter(
+//   //   (item) =>
+//   //     item.name && item.name.toLowerCase().includes(filterText.toLowerCase())
+//   // );
+
+//   const subHeaderComponentMemo = React.useMemo(() => {
+//     const handleClear = () => {
+//       if (filterText) {
+//         setResetPaginationToggle(!resetPaginationToggle);
+//         setFilterText("");
+//       }
+//     };
+
+//     return (
+//       <FilterComponent
+//         onFilter={(e) => setFilterText(e.target.value)}
+//         onClear={handleClear}
+//         filterText={filterText}
+//       />
+//     );
+//   }, [filterText, resetPaginationToggle]);
+  
   return (
     <>
       <section className="section dashboard">
@@ -267,11 +292,11 @@ export default function page() {
           <div className="col-lg-12">
             <div className="card">
               <div className="card-body">
-                <h5 className="card-title">A</h5>
-                <DataTable 
-                  pagination 
-                  columns={columns} 
-                  data={data} 
+                <DataTable
+                  title="Purchase in progress"
+                  pagination
+                  columns={columns}
+                  data={data}
                 />
               </div>
             </div>
