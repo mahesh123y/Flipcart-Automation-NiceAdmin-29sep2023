@@ -1,12 +1,12 @@
 "use client"
 
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
 import { Button } from "primereact/button";
 import { Tooltip } from "primereact/tooltip";
 
-export default function page() {
+export default function Page() {
 
   // const products = [
   //   {
